@@ -30,6 +30,8 @@ a {
     background-color: #1f2937;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-main {
@@ -42,11 +44,31 @@ a {
     flex-direction: column;
     align-content: flex-start;
     flex-wrap: wrap;
-    text-align: start;
+    text-align: left;
     width: 400px;
     padding-left: 5%;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 50px;
-    
+    margin-right: 50px;   
+}
+
+.hero-signup-button {
+    width: fit-content;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #3883F6;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 350px;
+    border: 5px;
+    background-color: #808080 ;
+}
+
+.info-container {
+    display: flex;
 }
