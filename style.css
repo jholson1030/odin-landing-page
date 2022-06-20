@@ -103,3 +103,24 @@ a {
     max-width: 200px;
     font-size: 18px;
 }
+
+.quote-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: auto;
+
+}
+
+.quote-one {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 42px;
+}
